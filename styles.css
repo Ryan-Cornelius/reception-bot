@@ -1,0 +1,139 @@
+/* BODY */
+
+body {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 5vh auto 5vh auto;
+    height: 10vh;
+    width: 90vw;
+}
+
+h3 {
+    width: 90vw;
+    margin-bottom: 10vh;
+}
+
+/* UTILITIES */
+.hidden {
+    display: none;
+}
+
+.container{
+    padding: 20px;
+    text-align: center;
+}
+
+/* OPTIONS */
+#optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80vh;
+}
+
+#businessContainer {
+    width: 70%;
+    justify-content: space-between;
+}
+
+#duncanCotterill {
+    width: 25%;
+    height: 85%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.business {
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+
+}
+
+/* PERSON LIST */
+#personContainer {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background: #eee;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100vw;
+}
+
+#personList {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+#personList > li:hover {
+    cursor: pointer;
+}
+
+/* NAME FORM */
+#formContainer {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+    width: 100vw;
+}
+
+#nameInput {
+    margin: 0 auto;
+    width: 70vw;
+    height: 10vh;
+    border-radius: 1rem !important;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+}
+
+#submitBtn {
+    width: 20vw;
+    height: 10vh;
+    font-size: 1.3rem;
+}
+
+#singlePersonErrorMessage {
+    width: 80vw;
+    height: 10vh;
+    font-size: 1.3rem;
+}
+
+#directions {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-wrap: wrap;
+}
+
+#directions > p {
+    width: 40vw;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 5vw;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#directions > img {
+    width: 40vw;
+    transform: rotate(90);
+}
